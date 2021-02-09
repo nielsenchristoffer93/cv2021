@@ -1,0 +1,53 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .row {
+    flex-flow: column wrap;
+    width: 94%;
+    margin: 0 3%;
+  }
+
+  .center {
+    top: 50%;
+    left: 0;
+    transform: translate(15%, -50%);
+    padding-left: 20px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .container.left {
+    width: 100%;
+  }
+
+  .left img {
+    width: 160px;
+  }
+
+  .container.left {
+    text-align: left;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #progressbar {
+    transform: rotate(0deg);
+  }
+
+  .content .left {
+    width: 25%;
+    padding-right: 10px;
+  }
+}
