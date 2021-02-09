@@ -1,10 +1,10 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
   .row {
     flex-flow: column wrap;
-    width: 94%;
-    margin: 0 3%;
+    width: 90%;
+    margin: 0 5%;
   }
 
   .center {
