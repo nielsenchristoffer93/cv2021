@@ -64,3 +64,39 @@
     padding-right: 10px;
   }
 }
+
+@media print {
+
+  body {
+    color: black;
+    background: none;
+  }
+
+  h3 {
+    background: #B0B0B0;
+    color: inherit;
+  }
+
+  section {
+    border-left: 10px solid grey;
+
+  }
+
+  #progressbar {
+    background-color: grey;
+  }
+
+  .row {
+    width: 96%;
+    margin: 0 2%;
+  }
+
+  .left img {
+    width: 200px;
+  }
+
+.hobbies ul li h5 {
+  margin-left: 10px;
+}
+
+}
