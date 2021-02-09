@@ -72,6 +72,15 @@
     background: none;
   }
 
+  a {
+    color: black;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 0.5;
+  }
+
   h3 {
     background: #B0B0B0;
     color: inherit;
@@ -87,8 +96,8 @@
   }
 
   .row {
-    width: 96%;
-    margin: 0 2%;
+    width: 98%;
+    margin: 0 1%;
   }
 
   .left img {
