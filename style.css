@@ -11,17 +11,18 @@ html {
 }
 
 body {
-  background: #1A2980;
+  /* background: #1A2980; */
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(#26D0CE, #1A2980);
+  /* background: -webkit-linear-gradient(#26D0CE, #1A2980); */
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(#26D0CE, #1A2980);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
-  height: 185vh;
+  /* height: 185vh; */
 }
 
 .row {
+  /* background: linear-gradient(#26D0CE, #1A2980); */
   display: flex;
   flex-flow: row wrap;
   width: 70%;
