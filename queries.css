@@ -63,6 +63,21 @@
     width: 25%;
     padding-right: 10px;
   }
+
+  .contact ul li {
+    position: relative;
+  }
+
+  .contact ul li h5 {
+    padding-left: 30px;
+    font-size: 0.8rem;
+    /* word-break: break-all; */
+  }
+
+  .contact ul li i {
+    position: absolute;
+    left: 0;
+  }
 }
 
 @media print {
